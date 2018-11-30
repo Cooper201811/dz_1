@@ -1,13 +1,15 @@
 age = int(input('Введите, пожалуйста, ваш возраст: '))
 
 def prof_orientation():
+    answer = ''
     if age < 7:
-        print('Вам в сад.')
-    elif 8 <= age < 17:
-        print('Вам в шарагу.')
-    elif 18 <= age < 22:
-        print('Ваше место в вузе.')
-    elif age >= 22:
-        print('Вам на работу.')
+        answer = 'Вам в сад.'
+    elif age < 17:
+        answer = 'Вам в шарагу.'
+    elif age < 22:
+        answer = 'Ваше место в вузе.'
+    elif:
+        answer = 'Вам на работу.'
+    return answer
 
-prof_orientation()
+print(prof_orientation())
